@@ -630,8 +630,7 @@ const GenerateReport = () => {
           console.log('Using HTTPS proxy API connection:', apiUrl);
         } else {
           // Direct connection for HTTP or localhost
-          // apiUrl = 'http://161.118.181.8/api/pdf';
-          apiUrl = '/api/pdf';
+          apiUrl = 'http://161.118.181.8/api/pdf';
           console.log('Using direct HTTP API connection:', apiUrl);
         }
         
