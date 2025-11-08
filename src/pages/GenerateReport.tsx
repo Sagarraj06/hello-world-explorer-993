@@ -619,7 +619,7 @@ const GenerateReport = () => {
       let response;
       try {
         // Detect current protocol and choose appropriate API endpoint
-        const isHttps = window.location.protocol === 'https:';
+        const isHttps = window.location.protocol === 'http:';
         const isLocalhost = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
         
         let apiUrl;
